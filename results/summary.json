@@ -1,0 +1,179 @@
+{
+  "sample": {
+    "paper_gpt5_games": 150,
+    "available_gpt5_games": 148,
+    "available_human_fooled": 87,
+    "minimum_words_per_witness": 50,
+    "excluded_games": 45,
+    "retained_games": 103,
+    "human_correct_games": 41,
+    "human_fooled_games": 62,
+    "texts": 206,
+    "input_words": 24969,
+    "unique_people": 151,
+    "participant_groups": 48,
+    "bootstrap_replicates": 10000,
+    "bootstrap_seed": 20261016,
+    "minimum_ai_flags_among_human_fooled_given_overall_accuracy": 59
+  },
+  "estimates": {
+    "paired_credit_overall": {
+      "metric": "paired_credit_overall",
+      "estimate": 0.970873786407767,
+      "ci90_low": 0.9473684210526315,
+      "ci90_high": 0.9901960784313726,
+      "numerator": 100.0,
+      "denominator": 103,
+      "degenerate_interval": false
+    },
+    "gpt5_ai_flag_overall": {
+      "metric": "gpt5_ai_flag_overall",
+      "estimate": 0.970873786407767,
+      "ci90_low": 0.94,
+      "ci90_high": 0.9923076923076923,
+      "numerator": 100.0,
+      "denominator": 103,
+      "degenerate_interval": false
+    },
+    "gpt5_nondetection_overall": {
+      "metric": "gpt5_nondetection_overall",
+      "estimate": 0.02912621359223301,
+      "ci90_low": 0.007692307692307693,
+      "ci90_high": 0.06,
+      "numerator": 3.0,
+      "denominator": 103,
+      "degenerate_interval": false
+    },
+    "paired_credit_human_correct": {
+      "metric": "paired_credit_human_correct",
+      "estimate": 0.9512195121951219,
+      "ci90_low": 0.9090909090909091,
+      "ci90_high": 0.9871794871794872,
+      "numerator": 39.0,
+      "denominator": 41,
+      "degenerate_interval": false
+    },
+    "gpt5_ai_flag_human_correct": {
+      "metric": "gpt5_ai_flag_human_correct",
+      "estimate": 0.926829268292683,
+      "ci90_low": 0.8529411764705882,
+      "ci90_high": 0.9803921568627451,
+      "numerator": 38.0,
+      "denominator": 41,
+      "degenerate_interval": false
+    },
+    "gpt5_nondetection_human_correct": {
+      "metric": "gpt5_nondetection_human_correct",
+      "estimate": 0.07317073170731707,
+      "ci90_low": 0.0196078431372549,
+      "ci90_high": 0.14705882352941177,
+      "numerator": 3.0,
+      "denominator": 41,
+      "degenerate_interval": false
+    },
+    "paired_credit_human_fooled": {
+      "metric": "paired_credit_human_fooled",
+      "estimate": 0.9838709677419355,
+      "ci90_low": 0.9642857142857143,
+      "ci90_high": 1.0,
+      "numerator": 61.0,
+      "denominator": 62,
+      "degenerate_interval": false
+    },
+    "gpt5_ai_flag_human_fooled": {
+      "metric": "gpt5_ai_flag_human_fooled",
+      "estimate": 1.0,
+      "ci90_low": 1.0,
+      "ci90_high": 1.0,
+      "numerator": 62.0,
+      "denominator": 62,
+      "degenerate_interval": true
+    },
+    "gpt5_nondetection_human_fooled": {
+      "metric": "gpt5_nondetection_human_fooled",
+      "estimate": 0.0,
+      "ci90_low": 0.0,
+      "ci90_high": 0.0,
+      "numerator": 0.0,
+      "denominator": 62,
+      "degenerate_interval": true
+    },
+    "human_ai_only_false_positive_overall": {
+      "metric": "human_ai_only_false_positive_overall",
+      "estimate": 0.02912621359223301,
+      "ci90_low": 0.0,
+      "ci90_high": 0.0673076923076923,
+      "numerator": 3.0,
+      "denominator": 103,
+      "degenerate_interval": false
+    },
+    "human_mixed_overall": {
+      "metric": "human_mixed_overall",
+      "estimate": 0.04854368932038835,
+      "ci90_low": 0.011494252873563218,
+      "ci90_high": 0.08421052631578947,
+      "numerator": 5.0,
+      "denominator": 103,
+      "degenerate_interval": false
+    },
+    "strict_document_accuracy_overall": {
+      "metric": "strict_document_accuracy_overall",
+      "estimate": 0.9466019417475728,
+      "ci90_low": 0.9212962962962963,
+      "ci90_high": 0.9710743801652892,
+      "numerator": 195.0,
+      "denominator": 206,
+      "degenerate_interval": false
+    },
+    "paired_difference_fooled_minus_correct": {
+      "metric": "paired_difference_fooled_minus_correct",
+      "estimate": 0.03265145554681359,
+      "ci90_low": -0.00042512593205030076,
+      "ci90_high": 0.07317562417600515,
+      "numerator": null,
+      "denominator": 103,
+      "degenerate_interval": false
+    },
+    "ai_flag_difference_fooled_minus_correct": {
+      "metric": "ai_flag_difference_fooled_minus_correct",
+      "estimate": 0.07317073170731703,
+      "ci90_low": 0.019607843137254943,
+      "ci90_high": 0.1470588235294118,
+      "numerator": null,
+      "denominator": 103,
+      "degenerate_interval": false
+    }
+  },
+  "overlap": [
+    {
+      "human_judgment": "People correct",
+      "correct_ordering": 37,
+      "tied": 4,
+      "reversed_ordering": 0,
+      "total": 41
+    },
+    {
+      "human_judgment": "People fooled",
+      "correct_ordering": 60,
+      "tied": 2,
+      "reversed_ordering": 0,
+      "total": 62
+    }
+  ],
+  "classification": [
+    {
+      "known_source": "gpt5",
+      "AI": 100,
+      "Human": 3,
+      "Mixed": 0,
+      "total": 103
+    },
+    {
+      "known_source": "human",
+      "AI": 3,
+      "Human": 95,
+      "Mixed": 5,
+      "total": 103
+    }
+  ]
+}

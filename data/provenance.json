@@ -1,0 +1,49 @@
+{
+  "source_url": "https://osf.io/jk7bw/",
+  "paper_doi": "10.1073/pnas.2524472123",
+  "source_folder": "15_mins/",
+  "source_export_games": 148,
+  "source_license_in_api_metadata": null,
+  "source_metadata_checked": "2026-10-20",
+  "detector": "Pangram",
+  "detector_version": "4.1",
+  "scan_date": "2026-10-19",
+  "number_of_reports": 206,
+  "input_texts_verified_against_reports": 206,
+  "text_matching_rule": "Unicode NFKC normalization followed by removal of PDF layout whitespace",
+  "raw_source_file_hashes": [
+    {
+      "file": "15_mins/tt_aimodel.csv",
+      "sha256": "d721053f92150d2cbc6e7f290da2f4497c0b9cf3e02ab93584544c9d9cdaa3d9"
+    },
+    {
+      "file": "15_mins/tt_conversation.csv",
+      "sha256": "f8d9654ecd27b77f39ab90adeaeb7ae4ec9cf2e73879dd3e37006d1d1ffccb56"
+    },
+    {
+      "file": "15_mins/tt_game.csv",
+      "sha256": "a659272ff890759c4df4d0a3fd883b425599c5c0ce2a538c8d9d2eed99898498"
+    },
+    {
+      "file": "15_mins/tt_interrogator.csv",
+      "sha256": "55d21053cfcf67847e4f2fc1acbc2b16ff09aea2b9fe580ac70833434a9cd3b5"
+    },
+    {
+      "file": "15_mins/tt_message_anonymized.csv",
+      "sha256": "390d7670a4d2bb658f6a1b7be54697ffa67848901091b21e210bc443841573c0"
+    },
+    {
+      "file": "15_mins/tt_profile.csv",
+      "sha256": "d59e4f1a7735b76a56533291c7988f8980f229ce9f86b65d69e1ce53087ccd8a"
+    },
+    {
+      "file": "15_mins/tt_transcripts.csv",
+      "sha256": "bb556c5c4d10e8a1a2bab878cfb4a92ae0faec7d2d68293f74e9051f231bc457"
+    },
+    {
+      "file": "15_mins/tt_witness.csv",
+      "sha256": "5d82a21e001bc17824af3339d3410efb376747609b7e8c6af172b84de68c0552"
+    }
+  ],
+  "input_csv_sha256": "6d1d87f9129b1a2364633748eaaa8433544ece4eaa8568d895015a7ffbfb07db"
+}
